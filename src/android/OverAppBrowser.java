@@ -580,8 +580,8 @@ public class OverAppBrowser extends CordovaPlugin {
 
                 inAppWebView.loadUrl(url);
                 inAppWebView.setId(6);
-                inAppWebView.getSettings().setLoadWithOverviewMode(true);
-                inAppWebView.getSettings().setUseWideViewPort(true);
+                inAppWebView.getSettings().setLoadWithOverviewMode(false);
+                inAppWebView.getSettings().setUseWideViewPort(false);
                 inAppWebView.requestFocus();
                 inAppWebView.requestFocusFromTouch();
                
